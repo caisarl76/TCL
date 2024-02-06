@@ -1,13 +1,13 @@
-train_file:  ['/data/multimodal/albef/data/coco_train.json']
-val_file: '/data/multimodal/albef/data/coco_val.json'                
-test_file: '/data/multimodal/albef/data/coco_test.json'
-image_root: '/data/multimodal/coco/images/'
+train_file:  ['/data/aihub/aihub_vqa/tcl_form/train.json']
+val_file: '/data/aihub/aihub_vqa/tcl_form/val.json'                
+test_file: '/data/aihub/aihub_vqa/tcl_form/val.json'
+image_root: '/'
 
 bert_config: 'configs/config_bert.json'
 
 image_res: 384
-batch_size_train: 512
-batch_size_test: 512
+batch_size_train: 64
+batch_size_test: 128
 
 queue_size: 65536
 momentum: 0.995

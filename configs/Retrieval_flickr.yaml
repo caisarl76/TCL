@@ -1,6 +1,6 @@
 train_file:  ['../data/json_down/flickr30k_train.json']
-val_file: '../data/json_down/flickr30k_val.json'                
-test_file: '../data/json_down/flickr30k_test.json'
+val_file: '/data/multimodal/albef/data/flickr30k_val.json'                
+test_file: '/data/multimodal/albef/data/flickr30k_test.json'
 image_root: '../data/Flickr/' #flickr30k-images/
 
 bert_config: 'configs/config_bert.json'
